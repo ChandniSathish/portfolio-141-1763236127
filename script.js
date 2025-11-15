@@ -109,18 +109,39 @@ function fixExternalLinks() {
 // Later this will be replaced with a real fetch() call.
 const MOCK_DYNAMIC_PROJECTS = [
   {
-    title: "RAG-powered Portfolio",
-    description: "A portfolio site that updates itself from a vector database built on my GitHub and resume.",
-    githubUrl: "https://github.com/your-username/rag-portfolio",
-    demoUrl: "https://your-demo-url.com",
-    tech: ["LLMs", "RAG", "JavaScript"]
+    title: "AI-Powered Code Review Assistant",
+    description: "Automated code review tool using GPT-4 to analyze pull requests, detect bugs, and suggest improvements. Integrates with GitHub Actions for seamless CI/CD workflow.",
+    githubUrl: "https://github.com/ChandniSathish/code-review-ai",
+    demoUrl: "https://code-review-demo.vercel.app",
+    tech: ["GPT-4", "Python", "GitHub API", "FastAPI", "React"]
   },
   {
-    title: "Agentic Hackathon Prototype",
-    description: "A self-evolving agent prototype that reacts to new data and updates its own strategy.",
-    githubUrl: "https://github.com/your-username/agentic-hackathon",
+    title: "Real-time Sentiment Analysis Dashboard",
+    description: "WebSocket-based dashboard for analyzing social media sentiment using NLP. Processes 10K+ messages per minute with live visualization and trend detection.",
+    githubUrl: "https://github.com/ChandniSathish/sentiment-dashboard",
     demoUrl: "",
-    tech: ["Agents", "Node.js"]
+    tech: ["Node.js", "WebSocket", "NLP", "D3.js", "MongoDB"]
+  },
+  {
+    title: "Microservices E-Commerce Platform",
+    description: "Scalable e-commerce backend with microservices architecture. Features include inventory management, payment processing, and order tracking with 99.9% uptime.",
+    githubUrl: "https://github.com/ChandniSathish/ecommerce-microservices",
+    demoUrl: "https://shop-demo.herokuapp.com",
+    tech: ["Docker", "Kubernetes", "Go", "PostgreSQL", "Redis", "Kafka"]
+  },
+  {
+    title: "Neural Network Image Classifier",
+    description: "Deep learning model for multi-class image classification achieving 98.5% accuracy. Trained on custom dataset with data augmentation and transfer learning.",
+    githubUrl: "https://github.com/ChandniSathish/image-classifier",
+    demoUrl: "",
+    tech: ["TensorFlow", "Python", "CNN", "NumPy", "Keras"]
+  },
+  {
+    title: "Smart DevOps Automation Suite",
+    description: "Infrastructure-as-code toolkit for automating deployment pipelines, monitoring, and auto-scaling. Reduces deployment time by 70% with zero-downtime deployments.",
+    githubUrl: "https://github.com/ChandniSathish/devops-automation",
+    demoUrl: "https://devops-dashboard.netlify.app",
+    tech: ["Terraform", "Ansible", "AWS", "Jenkins", "Prometheus", "Grafana"]
   }
 ];
 

@@ -1104,6 +1104,42 @@ footer {
     transform: translateY(-3px);
 }
 
+/* Item Header and Details */
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.item-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.item-date {
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.item-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+}
+
+.item-subtitle-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 0.8rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .education-item, .experience-item, .publication-item, .teaching-item, .award-item {

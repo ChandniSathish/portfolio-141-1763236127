@@ -1,0 +1,6 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="125" cy="125" r="120" fill="#10b981" stroke="#059669" stroke-width="4"/>
+  <text x="125" y="135" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Your Photo</text>
+  <text x="125" y="155" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Replace with</text>
+  <text x="125" y="175" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">your image</text>
+</svg>
